@@ -1,0 +1,24 @@
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.sidebar{
+    background-color: #efefef;
+    height: 720px;
+}
+.sidebar a{
+    text-decoration: none;
+    color: grey;
+    padding: 10px 0px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    /* font-weight: bold; */
+}
+.sidebar a:hover{
+    color: rgb(238, 103, 103);
+}
+.sidebar .active{
+    color: rgb(238, 103, 103);
+}
