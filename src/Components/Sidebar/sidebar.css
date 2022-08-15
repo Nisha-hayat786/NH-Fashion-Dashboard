@@ -1,11 +1,9 @@
-.sticky{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
+
 .sidebar{
+    width: 270px;
+    margin-top: 58px;
     background-color: #efefef;
-    height: 720px;
+    height: 735px;
 }
 .sidebar a{
     text-decoration: none;

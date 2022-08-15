@@ -11,9 +11,9 @@ import "../Sidebar/sidebar.css";
 
 function Sidebar() {
   return (
-    <div className="pt-3 sticky">
-      <div className="d-flex flex-column container sidebar">
-        <h6 className="fs-6 fw-bold text-black pt-5 mt-4 pb-0 ms-4">
+    <div>
+      <div className="d-flex flex-column sidebar fixed-top">
+        <h6 className="fs-6 fw-bold text-black mt-5 pt-2 pb-0 ms-4">
           Dashboard
         </h6>
         <NavLink to="/">
@@ -26,10 +26,10 @@ function Sidebar() {
           <TrendingUpIcon /> &nbsp; &nbsp; Sales
         </NavLink>
         <h6 className="fs-6 fw-bold text-black pt-4 pb-0 ms-4">Quick Menu</h6>
-        <NavLink to="/users">
+        <NavLink to="/userList">
           <PersonIcon /> &nbsp; &nbsp; Users
         </NavLink>
-        <NavLink to="/products">
+        <NavLink to="/productList">
           <Inventory2Icon /> &nbsp; &nbsp; Products
         </NavLink>
         <NavLink to="/transactions">

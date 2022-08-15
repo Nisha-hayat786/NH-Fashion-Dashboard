@@ -7,7 +7,7 @@ const FeaturedProducts = () => {
   return (
     <div>
       <div className="row">
-        <div className="col-md-4 px-3 py-3 d-flex justify-content-center">
+        <div className="col-md-4 px-3 pt-5 pb-3 mt-2 d-flex justify-content-center">
           <div className="cards">
             <div className="p-5">
               <h5 className="text-black fw-bold fs-5">Revenue</h5>
@@ -21,7 +21,7 @@ const FeaturedProducts = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4 px-3 py-3 d-flex justify-content-center">
+        <div className="col-md-4 px-3 pt-5 pb-3 mt-2 d-flex justify-content-center">
           <div className="cards">
             <div className="p-5">
               <h5 className="text-black fw-bold fs-5">Sales</h5>
@@ -35,7 +35,7 @@ const FeaturedProducts = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4 px-3 py-3 d-flex justify-content-center">
+        <div className="col-md-4 px-3 pt-5 pb-3 mt-2 d-flex justify-content-center">
           <div className="cards">
             <div className="p-5">
               <h5 className="text-black fw-bold fs-5">Costs</h5>

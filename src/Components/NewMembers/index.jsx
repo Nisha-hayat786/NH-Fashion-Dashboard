@@ -41,8 +41,7 @@ const NewMembers = (props) => {
       <div className="row d-flex align-items-center">
         <div className="col-md-3">
           <Avatar
-            {...stringAvatar("Huzaifa Saleem")}
-            
+            {...stringAvatar("Huzaifa Saleem")} 
           />
         </div>
         <div className="col-md-6">

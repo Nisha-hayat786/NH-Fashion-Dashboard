@@ -1,0 +1,18 @@
+.edit{
+    background-color: #efefef;
+    padding: 7px;
+    border-radius: 50%;
+    border: none;
+}
+.edit:hover{
+    border: none;
+}
+.del{
+    background-color: #efefef;
+    padding: 7px;
+    border-radius: 50%;
+    border: none;
+}
+.del:hover{
+    border: none;
+}
