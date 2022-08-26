@@ -11,12 +11,11 @@ const LogIn = () => {
 
   const handleClick = (e) => {
     e.preventDefault();
-
     login(dispatch, { username, password});
   }
   return (
-    <div className='m-5'>
-      <Form>
+    <div className='m-5 d-flex justify-content-center align-items-center flex-column'>
+      <Form className='col-md-6'>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label className="mb-0">Username</Form.Label>
         <Form.Control type="text" placeholder="Enter username" onChange={e => setUsername(e.target.value)}/>
